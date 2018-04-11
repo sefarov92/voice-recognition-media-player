@@ -1,0 +1,31 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+
+public <greet> = (volume up|volume down);
+
+public <gree> = (media up | media down);
+
+public <gre> = (pause);
+public <gr> = (play);
+public <g> = (stop);
+public <q> = (previous);
+public <f> = (next);
+public <h> = (rewind);
+public <i> = (repeat);
+public <a> = (mute);
+public <aaa> = (full)(screen |view);
+public <bbb> = (fast)(forward | faster);
+public <asdasd> = (show )( menu | menus);
+public <qqq> = (library);
+public <qdas> = (shuffle);
+public <power> = (start)(listen|listening);
+public <pow0er> = (voice);
+public <pow02er> = (pley);
+public <pow0er3> = (muite);
+public <pow0er4> = (stap);
+public <numbers> = (one | two | three | four | five | six | seven | eight | nine | zero);
